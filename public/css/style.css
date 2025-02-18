@@ -256,7 +256,19 @@
 
 /* responsivo */
 
-@media (max-width: 481px) {
+@media screen and (max-width: 770px) {
+    .new-job .new-job-label {
+        display: none;
+    }
+    .form-control {
+        width: 50px;
+        left: 15px;
+        top: calc(50% - 25px);
+
+    }
+}
+    
+@media screen and (max-width: 990px) {
     /* navbar */
     #navbarNav {
         text-align: center;
@@ -291,9 +303,7 @@
         left: 15px;
         top: calc(50% - 25px);
     }
-    .new-job .new-job-label {
-        display: none;
-    }
+    
     /* job View */
     .back-link {
         margin.left: 30px;
@@ -304,7 +314,7 @@
     .job-desc {
         width: 80%;
     }
-
+    
     /* add view */
 
     #form-box {
